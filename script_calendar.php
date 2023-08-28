@@ -54,7 +54,7 @@
             },
         
             events: <?php echo json_encode($data);?>
-        /*events: [
+        events: [
             {
                 title: 'All Day Event',
                 start: '2022-07-01'
@@ -105,7 +105,7 @@
                 url: 'http://google.com/',
                 start: '2022-07-28'
             }
-        ]*/
+        ]
         });
 
         calendar.render();
