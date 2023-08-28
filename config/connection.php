@@ -1,7 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$dbhost = 'localhost:3000';
+$dbuser = 'root';
+$dbpass = '';
+$db     = 'db_bookingapp';
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=db_bookingapp;charset=utf8", $username, $password);
