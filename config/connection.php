@@ -1,5 +1,5 @@
 <?php
-$dbhost = 'localhost:3000';
+$dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = '';
 $db     = 'db_bookingapp';
